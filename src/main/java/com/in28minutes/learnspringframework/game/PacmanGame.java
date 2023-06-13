@@ -1,10 +1,13 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("PacmanGame")
 public class PacmanGame implements GamingConsole{
 	
-	public void up() {
-		System.out.println("up");
-	}
+	public void up() {System.out.println("up");}
 
 	public void down() {
 		System.out.println("down");

@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Primary;
 //equals, hashcode and toString are automatically created. 
 //Released in JDK 16.
 
-record Person (String name, int age, Address address) { };
+record Person (String name, int age, Address address) { }
 
 //Address - firstLine & city
-record Address(String firstLine, String city){ };
+record Address(String firstLine, String city){ }
 
 @Configuration
 public class HelloWorldConfiguration {
@@ -71,5 +71,4 @@ public class HelloWorldConfiguration {
 	public Address address3() {
 		return new Address("Motinagar", "Hyderabad");		
 	}
-
 }

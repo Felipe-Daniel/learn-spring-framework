@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringframework;
+package com.in28minutes.learnspringframework.helloworld2;
 
 import com.in28minutes.learnspringframework.game.PacmanGame;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -13,7 +13,4 @@ public class App03GamingBasicSpring {
             throw new RuntimeException(e);
         }
     }
-
-
-
 }

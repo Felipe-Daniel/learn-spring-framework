@@ -1,11 +1,11 @@
-package com.in28minutes.learnspringframework;
+package com.in28minutes.learnspringframework.helloworld2;
+
 import com.in28minutes.learnspringframework.game.GameRunner;
 import com.in28minutes.learnspringframework.game.GamingConsole;
 import com.in28minutes.learnspringframework.game.PacmanGame;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class GamingBasicConfiguration {
     @Bean
     public PacmanGame PacMan() {
